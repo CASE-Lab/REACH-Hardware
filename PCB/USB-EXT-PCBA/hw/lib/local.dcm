@@ -1,0 +1,12 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CP2108-B03-GM
+D SILICON LABS - CP2108-B03-GM - QUAD USB TO UART BRIDGE, -40 TO 85DEG C
+F https://www.silabs.com/documents/public/data-sheets/cp2108-datasheet.pdf
+$ENDCMP
+#
+$CMP SC16IS752IPW
+D SPI to 2x UART converter
+$ENDCMP
+#
+#End Doc Library

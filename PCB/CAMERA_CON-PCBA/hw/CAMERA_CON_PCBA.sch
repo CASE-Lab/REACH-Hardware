@@ -1,0 +1,192 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic_MountingPin:Conn_01x15_MountingPin J1
+U 1 1 5EEF2C9F
+P 4200 3650
+F 0 "J1" H 4122 4567 50  0000 C CNN
+F 1 "Conn_01x15_MountingPin" H 4122 4476 50  0000 C CNN
+F 2 "local:SFW15R2STE1LF" H 4200 3650 50  0001 C CNN
+F 3 "~" H 4200 3650 50  0001 C CNN
+	1    4200 3650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic_MountingPin:Conn_01x19_MountingPin J2
+U 1 1 5EEF45F1
+P 6050 3850
+F 0 "J2" H 6138 3814 50  0000 L CNN
+F 1 "Conn_01x19_MountingPin" H 6138 3723 50  0000 L CNN
+F 2 "local:MHDR-A511-M0" H 6050 3850 50  0001 C CNN
+F 3 "~" H 6050 3850 50  0001 C CNN
+	1    6050 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 2950 5050 3050
+Wire Wire Line
+	5050 3050 5850 3050
+Wire Wire Line
+	4400 3250 5050 3250
+Wire Wire Line
+	5050 3250 5050 3350
+Wire Wire Line
+	5050 3350 5850 3350
+Wire Wire Line
+	4400 3550 5050 3550
+Wire Wire Line
+	5050 3550 5050 3650
+Wire Wire Line
+	5050 3650 5850 3650
+Wire Wire Line
+	4400 3050 4450 3050
+Wire Wire Line
+	4450 3050 4450 3000
+Wire Wire Line
+	4450 3000 5800 3000
+Wire Wire Line
+	5800 3000 5800 2950
+Wire Wire Line
+	5800 2950 5850 2950
+Wire Wire Line
+	4400 4150 5450 4150
+Wire Wire Line
+	5450 4150 5450 4350
+Wire Wire Line
+	5450 4350 5850 4350
+Wire Wire Line
+	4400 4250 5350 4250
+Wire Wire Line
+	5350 4250 5350 4450
+Wire Wire Line
+	5350 4450 5850 4450
+Wire Wire Line
+	4400 4350 5250 4350
+Wire Wire Line
+	4400 3150 5850 3150
+Wire Wire Line
+	4400 3350 4450 3350
+Wire Wire Line
+	4450 3350 4450 3300
+Wire Wire Line
+	4450 3300 5800 3300
+Wire Wire Line
+	5800 3300 5800 3250
+Wire Wire Line
+	5800 3250 5850 3250
+Wire Wire Line
+	4400 3450 5850 3450
+Wire Wire Line
+	4400 3650 4450 3650
+Wire Wire Line
+	4450 3650 4450 3600
+Wire Wire Line
+	4450 3600 5800 3600
+Wire Wire Line
+	5800 3600 5800 3550
+Wire Wire Line
+	5800 3550 5850 3550
+Wire Wire Line
+	4400 3750 5850 3750
+Wire Wire Line
+	4400 3850 5050 3850
+Wire Wire Line
+	5050 3850 5050 3950
+Wire Wire Line
+	5050 3950 5850 3950
+Wire Wire Line
+	4400 3950 4450 3950
+Wire Wire Line
+	4450 3950 4450 3900
+Wire Wire Line
+	4450 3900 5800 3900
+Wire Wire Line
+	5800 3900 5800 3850
+Wire Wire Line
+	5800 3850 5850 3850
+Wire Wire Line
+	4400 4050 5850 4050
+Wire Wire Line
+	5850 4650 5250 4650
+Wire Wire Line
+	5250 4350 5250 4650
+$Comp
+L power:GND #PWR0102
+U 1 1 5EF0D423
+P 6050 5050
+F 0 "#PWR0102" H 6050 4800 50  0001 C CNN
+F 1 "GND" H 6055 4877 50  0000 C CNN
+F 2 "" H 6050 5050 50  0001 C CNN
+F 3 "" H 6050 5050 50  0001 C CNN
+	1    6050 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 5050 6050 4950
+Text Label 5150 3000 0    50   ~ 0
+CAM-D0_N
+Text Label 5150 3150 0    50   ~ 0
+CAM-D0_P
+Text Label 4500 2950 0    50   ~ 0
+GND
+Text Label 4500 3250 0    50   ~ 0
+GND
+Text Label 5150 3300 0    50   ~ 0
+CAM_D1_N
+Text Label 5150 3450 0    50   ~ 0
+CAM_D1_P
+Text Label 4500 3550 0    50   ~ 0
+GND
+Text Label 5150 3600 0    50   ~ 0
+CAM_CK_N
+Text Label 5150 3750 0    50   ~ 0
+CAM_CK_P
+Text Label 4500 3850 0    50   ~ 0
+GND
+Text Label 5150 3900 0    50   ~ 0
+CAM_IO0
+Text Label 4500 4050 0    50   ~ 0
+CAM_IO1
+Text Label 4500 4150 0    50   ~ 0
+CAM_SCL
+Text Label 4500 4250 0    50   ~ 0
+CAM_SDA
+Text Label 4500 4350 0    50   ~ 0
+CAM_3V3
+Wire Wire Line
+	4400 2950 5050 2950
+NoConn ~ 5850 4150
+NoConn ~ 5850 4250
+NoConn ~ 5850 4550
+NoConn ~ 5850 4750
+Wire Wire Line
+	4200 2750 4200 2650
+Wire Wire Line
+	4200 2650 4000 2650
+Wire Wire Line
+	4000 2650 4000 2750
+$Comp
+L power:GND #PWR0101
+U 1 1 5EF0CFD0
+P 4000 2750
+F 0 "#PWR0101" H 4000 2500 50  0001 C CNN
+F 1 "GND" H 4005 2577 50  0000 C CNN
+F 2 "" H 4000 2750 50  0001 C CNN
+F 3 "" H 4000 2750 50  0001 C CNN
+	1    4000 2750
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

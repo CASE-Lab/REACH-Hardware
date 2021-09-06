@@ -1,0 +1,380 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 2 2
+Title "Project Unicorn: FP-PCBA"
+Date "2021-01-19"
+Rev "3"
+Comp "Chalmers University of Technology"
+Comment1 "Noel Danielsson"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 6850 5700 0    50   Input ~ 0
+VBUS
+Text HLabel 6850 5800 0    50   Input ~ 0
+D+
+Text HLabel 6850 5900 0    50   Input ~ 0
+D-
+Text HLabel 6800 5100 0    50   Input ~ 0
+GND
+$Comp
+L local:CP2108-B03-GM IC1
+U 1 1 5F5F21F3
+P 8800 2650
+F 0 "IC1" H 8775 2815 50  0000 C CNN
+F 1 "CP2108-B03-GM" H 8775 2724 50  0000 C CNN
+F 2 "local:CP2108-B03-GM" H 7800 -2950 50  0001 L CNN
+F 3 "https://www.silabs.com/documents/public/data-sheets/cp2108-datasheet.pdf" H 7800 2400 50  0001 L CNN
+F 4 "Change to B03 variant (currently not in stock)" H 8800 2650 50  0001 C CNN "Comments"
+F 5 "Mouser" H 8800 2650 50  0001 C CNN "Distributor"
+F 6 "634-CP2108-B02-GMR" H 8800 2650 50  0001 C CNN "Distributor PN"
+F 7 "CP2108-B02-GMR" H 8800 2650 50  0001 C CNN "MPN"
+F 8 "Silicon Labs" H 8800 2650 50  0001 C CNN "Manufacturer"
+	1    8800 2650
+	1    0    0    -1  
+$EndComp
+Text HLabel 10300 3000 2    50   Output ~ 0
+TX0
+Text HLabel 10300 3100 2    50   Input ~ 0
+RX0
+Text HLabel 10300 3900 2    50   Output ~ 0
+TX1
+Text HLabel 10300 4000 2    50   Input ~ 0
+RX1
+Text HLabel 10300 4800 2    50   Output ~ 0
+TX2
+Text HLabel 10300 4900 2    50   Input ~ 0
+RX2
+Text HLabel 10300 5700 2    50   Output ~ 0
+TX3
+Text HLabel 10300 5800 2    50   Input ~ 0
+RX3
+Wire Wire Line
+	7600 4650 7500 4650
+Wire Wire Line
+	7500 4650 7500 4750
+Wire Wire Line
+	7500 5100 7050 5100
+Wire Wire Line
+	7600 4750 7500 4750
+Connection ~ 7500 4750
+Wire Wire Line
+	7500 4750 7500 4850
+Wire Wire Line
+	7600 4850 7500 4850
+Connection ~ 7500 4850
+Wire Wire Line
+	7500 4850 7500 4950
+Wire Wire Line
+	7600 4950 7500 4950
+Connection ~ 7500 4950
+Wire Wire Line
+	7500 4950 7500 5100
+Wire Wire Line
+	6850 5700 7650 5700
+Wire Wire Line
+	6850 5800 7650 5800
+Wire Wire Line
+	6850 5900 7650 5900
+Wire Wire Line
+	9950 4800 10300 4800
+Wire Wire Line
+	9950 4900 10300 4900
+Wire Wire Line
+	9950 4000 10300 4000
+Wire Wire Line
+	9950 3900 10300 3900
+Wire Wire Line
+	9950 3100 10300 3100
+Wire Wire Line
+	9950 3000 10300 3000
+Wire Wire Line
+	9950 5700 10300 5700
+Wire Wire Line
+	9950 5800 10300 5800
+NoConn ~ 9950 3200
+NoConn ~ 9950 3300
+NoConn ~ 9950 3400
+NoConn ~ 9950 3500
+NoConn ~ 9950 3600
+NoConn ~ 9950 3700
+NoConn ~ 9950 4100
+NoConn ~ 9950 4200
+NoConn ~ 9950 4300
+NoConn ~ 9950 4400
+NoConn ~ 9950 4500
+NoConn ~ 9950 4600
+NoConn ~ 9950 6600
+NoConn ~ 9950 6700
+NoConn ~ 9950 6800
+NoConn ~ 9950 6900
+NoConn ~ 9950 7000
+NoConn ~ 9950 7100
+NoConn ~ 9950 7200
+NoConn ~ 9950 7300
+NoConn ~ 9950 7400
+NoConn ~ 9950 7500
+NoConn ~ 9950 7600
+NoConn ~ 9950 7700
+NoConn ~ 9950 7800
+NoConn ~ 9950 7900
+NoConn ~ 9950 8000
+NoConn ~ 9950 8100
+NoConn ~ 9950 5000
+NoConn ~ 9950 5100
+NoConn ~ 9950 5200
+NoConn ~ 9950 5300
+NoConn ~ 9950 5400
+NoConn ~ 9950 5500
+NoConn ~ 9950 5900
+NoConn ~ 9950 6000
+NoConn ~ 9950 6100
+NoConn ~ 9950 6200
+NoConn ~ 9950 6300
+NoConn ~ 9950 6400
+$Comp
+L Device:R R1
+U 1 1 5F619BE1
+P 10100 2500
+F 0 "R1" H 10170 2546 50  0000 L CNN
+F 1 "100k" H 10170 2455 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 10030 2500 50  0001 C CNN
+F 3 "~" H 10100 2500 50  0001 C CNN
+F 4 "CASE" H 10100 2500 50  0001 C CNN "Distributor"
+	1    10100 2500
+	1    0    0    -1  
+$EndComp
+Text Label 10100 2200 0    50   ~ 0
+VIO
+Wire Wire Line
+	9950 2750 10100 2750
+Wire Wire Line
+	10100 2750 10100 2650
+Wire Wire Line
+	10100 2350 10100 2200
+Text Label 7450 2250 2    50   ~ 0
+VIO
+Text HLabel 6850 4000 0    50   Input ~ 0
+VBUS
+Wire Wire Line
+	6850 4000 7050 4000
+NoConn ~ 7600 7750
+NoConn ~ 7600 7850
+NoConn ~ 7600 8000
+NoConn ~ 7600 8100
+$Comp
+L Device:C C4
+U 1 1 5F63900A
+P 5800 2950
+F 0 "C4" H 5915 2996 50  0000 L CNN
+F 1 "0.1uF" H 5915 2905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5838 2800 50  0001 C CNN
+F 3 "~" H 5800 2950 50  0001 C CNN
+F 4 "Mouser" H 5800 2950 50  0001 C CNN "Distributor"
+F 5 "581-06033C104KAT4A" H 5800 2950 50  0001 C CNN "Distributor PN"
+F 6 "06033C104KAT4A" H 5800 2950 50  0001 C CNN "MPN"
+F 7 "AVX" H 5800 2950 50  0001 C CNN "Manufacturer"
+	1    5800 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C5
+U 1 1 5F630237
+P 6350 2950
+F 0 "C5" H 6465 2996 50  0000 L CNN
+F 1 "0.1uF" H 6465 2905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6388 2800 50  0001 C CNN
+F 3 "~" H 6350 2950 50  0001 C CNN
+F 4 "Mouser" H 6350 2950 50  0001 C CNN "Distributor"
+F 5 "581-06033C104KAT4A" H 6350 2950 50  0001 C CNN "Distributor PN"
+F 6 "06033C104KAT4A" H 6350 2950 50  0001 C CNN "MPN"
+F 7 "AVX" H 6350 2950 50  0001 C CNN "Manufacturer"
+	1    6350 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C6
+U 1 1 5F62E60D
+P 6900 2950
+F 0 "C6" H 7015 2996 50  0000 L CNN
+F 1 "0.1uF" H 7015 2905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6938 2800 50  0001 C CNN
+F 3 "~" H 6900 2950 50  0001 C CNN
+F 4 "Mouser" H 6900 2950 50  0001 C CNN "Distributor"
+F 5 "581-06033C104KAT4A" H 6900 2950 50  0001 C CNN "Distributor PN"
+F 6 "06033C104KAT4A" H 6900 2950 50  0001 C CNN "MPN"
+F 7 "AVX" H 6900 2950 50  0001 C CNN "Manufacturer"
+	1    6900 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7450 2750 7450 2650
+Connection ~ 7450 2750
+Wire Wire Line
+	7450 2750 7600 2750
+Wire Wire Line
+	7600 3100 7450 3100
+Wire Wire Line
+	7450 3000 7450 2750
+Wire Wire Line
+	7450 3100 7450 3000
+Connection ~ 7450 3000
+Wire Wire Line
+	7450 3000 7600 3000
+Connection ~ 7450 3100
+Wire Wire Line
+	7450 3350 7450 3100
+Wire Wire Line
+	7600 3350 7450 3350
+Text HLabel 3900 3350 0    50   Input ~ 0
+GND
+Wire Wire Line
+	3900 3350 4150 3350
+Wire Wire Line
+	6900 3350 6900 3100
+Wire Wire Line
+	6900 2650 6350 2650
+Wire Wire Line
+	5800 2650 5800 2800
+Wire Wire Line
+	5800 3100 5800 3350
+Wire Wire Line
+	6900 2800 6900 2650
+Connection ~ 5800 3350
+Wire Wire Line
+	5800 3350 6350 3350
+Wire Wire Line
+	6350 3350 6350 3100
+Wire Wire Line
+	6350 2800 6350 2650
+Connection ~ 6350 3350
+Wire Wire Line
+	6350 3350 6900 3350
+Connection ~ 6350 2650
+Wire Wire Line
+	6350 2650 5800 2650
+Wire Wire Line
+	7450 2650 6900 2650
+Connection ~ 7450 2650
+Wire Wire Line
+	7450 2650 7450 2250
+Connection ~ 6900 2650
+$Comp
+L Device:C C7
+U 1 1 5F646134
+P 7050 4300
+F 0 "C7" H 7165 4346 50  0000 L CNN
+F 1 "1uF" H 7165 4255 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7088 4150 50  0001 C CNN
+F 3 "~" H 7050 4300 50  0001 C CNN
+F 4 "Mouser" H 7050 4300 50  0001 C CNN "Distributor"
+F 5 "80-C0603C105K4RLR" H 7050 4300 50  0001 C CNN "Distributor PN"
+F 6 "C0603C105K4RAC7411" H 7050 4300 50  0001 C CNN "MPN"
+F 7 "KEMET" H 7050 4300 50  0001 C CNN "Manufacturer"
+	1    7050 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7050 4000 7050 4150
+Wire Wire Line
+	7050 4450 7050 5100
+Connection ~ 7050 4000
+Wire Wire Line
+	7050 4000 7600 4000
+Connection ~ 7050 5100
+Wire Wire Line
+	7050 5100 6800 5100
+$Comp
+L Device:C C2
+U 1 1 5F64DF66
+P 4700 2950
+F 0 "C2" H 4815 2996 50  0000 L CNN
+F 1 "1uF" H 4815 2905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4738 2800 50  0001 C CNN
+F 3 "~" H 4700 2950 50  0001 C CNN
+F 4 "Mouser" H 4700 2950 50  0001 C CNN "Distributor"
+F 5 "80-C0603C105K4RLR" H 4700 2950 50  0001 C CNN "Distributor PN"
+F 6 "C0603C105K4RAC7411" H 4700 2950 50  0001 C CNN "MPN"
+F 7 "KEMET" H 4700 2950 50  0001 C CNN "Manufacturer"
+	1    4700 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 3350 4700 3100
+Wire Wire Line
+	4700 2650 5250 2650
+Wire Wire Line
+	4700 2800 4700 2650
+Connection ~ 5800 2650
+$Comp
+L Device:C C3
+U 1 1 5F65F4F2
+P 5250 2950
+F 0 "C3" H 5365 2996 50  0000 L CNN
+F 1 "0.1uF" H 5365 2905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5288 2800 50  0001 C CNN
+F 3 "~" H 5250 2950 50  0001 C CNN
+F 4 "Mouser" H 5250 2950 50  0001 C CNN "Distributor"
+F 5 "581-06033C104KAT4A" H 5250 2950 50  0001 C CNN "Distributor PN"
+F 6 "06033C104KAT4A" H 5250 2950 50  0001 C CNN "MPN"
+F 7 "AVX" H 5250 2950 50  0001 C CNN "Manufacturer"
+	1    5250 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 2650 5250 2800
+Wire Wire Line
+	5250 3100 5250 3350
+Connection ~ 5250 2650
+Wire Wire Line
+	5250 2650 5800 2650
+Wire Wire Line
+	5250 3350 5800 3350
+Text Notes 6950 3150 0    50   ~ 0
+@VIO_1
+Text Notes 6400 3150 0    50   ~ 0
+@VIO_2
+Text Notes 5850 3150 0    50   ~ 0
+@VDD
+Text Notes 5300 3150 0    50   ~ 0
+@VIOHD
+Text Notes 4750 3150 0    50   ~ 0
+@VIOHD
+Connection ~ 5250 3350
+Connection ~ 4700 3350
+Wire Wire Line
+	4700 3350 5250 3350
+$Comp
+L Device:C C1
+U 1 1 5F671807
+P 4150 2950
+F 0 "C1" H 4265 2996 50  0000 L CNN
+F 1 "1uF" H 4265 2905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4188 2800 50  0001 C CNN
+F 3 "~" H 4150 2950 50  0001 C CNN
+F 4 "Mouser" H 4150 2950 50  0001 C CNN "Distributor"
+F 5 "80-C0603C105K4RLR" H 4150 2950 50  0001 C CNN "Distributor PN"
+F 6 "C0603C105K4RAC7411" H 4150 2950 50  0001 C CNN "MPN"
+F 7 "KEMET" H 4150 2950 50  0001 C CNN "Manufacturer"
+	1    4150 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 3350 4150 3100
+Wire Wire Line
+	4150 2650 4700 2650
+Wire Wire Line
+	4150 2800 4150 2650
+Connection ~ 4150 3350
+Wire Wire Line
+	4150 3350 4700 3350
+Connection ~ 4700 2650
+Text Notes 4200 3150 0    50   ~ 0
+@VDD
+Text Notes 7800 1950 0    50   ~ 0
+USB to 4x UART Converter\nDesign based on "Figure 6.1. Typical Bus-Powered Connection Diagram" in datasheet
+$EndSCHEMATC

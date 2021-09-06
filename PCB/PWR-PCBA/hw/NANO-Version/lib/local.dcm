@@ -1,0 +1,31 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LTC2950ITS8-1
+D Linear Technology push button controller with wide input voltage
+F https://www.analog.com/media/en/technical-documentation/data-sheets/295012fd.pdf
+$ENDCMP
+#
+$CMP LTC2955xDDB-1
+D Pushbutton On/Off Controller with Automatic Turn-On
+K LTC2955CDDB-1 LTC2955IDDB-1
+F https://www.analog.com/media/en/technical-documentation/data-sheets/2955fa.pdf
+$ENDCMP
+#
+$CMP TPS25940x-Q1
+D 2.7-V to 18-V eFuse with Integrated Short-to-Battery Protection
+K eFuse
+F http://www.ti.com/lit/ds/symlink/tps25940-q1.pdf
+$ENDCMP
+#
+$CMP TPS2595xx
+D TPS2595xx 2.7 V to 18 V, 4-A, 34-mΩ eFuse With Fast Overvoltage Protection. Note that this symbol is made for TPS2595x0/1
+F https://www.ti.com/lit/gpn/tps2595
+$ENDCMP
+#
+$CMP TPSM84624MOLR
+D 4.5V to 17V Input, 0.6V-10V Output, 6A Power Module in Compact 7.5x7.5mm Footprint
+K DC DC Module
+F https://www.ti.com/lit/gpn/tpsm84624
+$ENDCMP
+#
+#End Doc Library

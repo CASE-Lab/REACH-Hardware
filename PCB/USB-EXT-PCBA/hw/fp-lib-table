@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name local)(type KiCad)(uri C:/Users/drago/Desktop/Projects/UNICORN-TBD/USB-EXT-PCBA/hw/lib/local.pretty)(options "")(descr ""))
+)
