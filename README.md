@@ -2,7 +2,7 @@
 REACH - Rugged Extensible Autonomous Control Hardware
 
 ## The REACH Unit
-Is a fairly compact linux computer built upon the Nvidia Xavier NX developer kit. The main idea is to simply make the developer kit rugged and modular/extensible by adding functions by installing expansion cards.
+Is a fairly compact linux computer built upon the Nvidia Xavier NX developer kit. The main idea is to make the developer kit rugged and modular/extensible. 
 
 ### Fields of Interest
 The unit is supposed to be used in the fields of robotics and automation if more robust and/or modular solution is needed. 
