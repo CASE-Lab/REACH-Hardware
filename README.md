@@ -12,7 +12,7 @@ Example: A REACH unit is used in a research project with an autonomous jet ski. 
 ### Features
 * Built upon an Nvidia NX developer kit
 * Passively cooled
-* Should hold an IP65 rating
+* Should attain an IP65 rating (untested)
 * Allows for use of up to two Raspberry PI cameras over a distance of up to 10m using the HDMI to CSI adapter (adapter found in REACH-Extensions). (Number of supported cameras varies depending on the configuration)
 * All standard connectors from the dev kit have been routed to the outside of the enclosure (1x Ethernet port, Wifi, 2-3x USB ports)
 * Features up to 4 expansion cards which can add function such as CAN and RS232 support. Each card can be conencted to a standard M12 industrial connector located on the front panel.
