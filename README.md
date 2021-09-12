@@ -7,7 +7,9 @@ Is a fairly compact linux computer built upon the Nvidia Xavier NX developer kit
 ### Fields of Interest
 The unit is supposed to be used in the fields of robotics and automation if more robust and/or modular solution is needed. 
 
-Example: A REACH unit is used in a research project with an autonomous jet ski. The rugged enclosure makes it ideal for the harsh environment. Because of it's modularity it also allows for future extensions to meet new needs that can arise.
+Example: A REACH unit is used in a research project with an autonomous jet ski. The rugged enclosure makes it ideal for the harsh environment. Because of it's modularity it also allows for future extensions to meet new needs that can arise. This version of the unit features two camera inputs and telemetry support.
+
+Example: A REACH unit is used for controlling a Husqvarna Research Platform (HRP) (a modified robotic lawn mower for research purposes). It allows for enough computational power to easily run ROS2, while also allowing for a camera and USB devices to be connected in the future. This version of the unit is the standard version with one camera input and GPIO ports.
 
 ### Features
 * Built upon an Nvidia NX developer kit
