@@ -1,1 +1,2 @@
-The project uses only the KiCad ECAD program.
+#REACH-Hardware-PCB
+This project uses only the KiCad ECAD program.
